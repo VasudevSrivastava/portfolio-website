@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function HeroSection() {
 	return (
@@ -54,9 +55,11 @@ export default function HeroSection() {
 								<div className="absolute inset-0 rounded-full bg-gradient-to-br from-green-500 to-blue-500 blur-md opacity-75 group-hover:opacity-100 transition-opacity"></div>
 								<div className="relative rounded-full p-1 bg-gradient-to-br from-green-500 to-blue-500">
                                     {/* IMPORTANT: Replace this src with the path to your image */}
-									<img
+									<Image
 										src="/profile_pic.jpg"
 										alt="Vasudev Srivastava"
+										width={192}  // Add this (w-48 = 192px)
+										height={192} // Add this (h-48 = 192px)
 										className="w-full h-full rounded-full object-cover bg-black"
 									/>
 								</div>
