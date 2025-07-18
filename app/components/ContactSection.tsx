@@ -48,7 +48,7 @@ export default function ContactSection() {
 						<EmailIcon />
 						<span>vasudev@vasudevsrivastava.com</span>
 					</a>
-					<a href="/path-to-resume.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-gray-300 hover:text-green-400 transition-colors">
+					<a href="/VasudevResume.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-gray-300 hover:text-green-400 transition-colors">
 						<ResumeIcon />
 						<span>Download Resume</span>
 					</a>
